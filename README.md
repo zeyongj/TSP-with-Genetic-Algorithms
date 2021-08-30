@@ -19,7 +19,7 @@ The following packages are needed for this assignment:
 
 The `tsp.py` is implemented with a command line interface, which allows to set the parameters for running the genetic algorithm through the command line. The following are some options it contains: 
 
--	`-h` (or `--help`): Print command line interface help manual.
+-	`-h` (or `--help`): print command line interface help manual.
 -	`-i $arg` (or `--city_ifile $arg`): set the input city dataset filename.
 -	`-o $arg` (or `--solution_ofile $arg`): set the output filename for writing the best solution. $arg has default value: best_solution.txt.
 -	`-s $arg` (or `--init_pop_generator $arg`): set the initial population generator. Valid options include: random, random_2opt, nearest_neighbor_2opt. $arg has a default value: random.
